@@ -3,7 +3,7 @@ import Days from './Days';
 
 const Weather = ({ dataWeather }) => {
   const { list, city } = dataWeather;
-  const dailyData = list.filter(reading => reading.dt_txt.includes('12:00:00'));
+  const dailyData = list.filter(reading => reading.dt_txt.includes('18:00:00'));
 
   return (
     <main className="main">

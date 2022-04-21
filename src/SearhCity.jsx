@@ -10,12 +10,18 @@ const SearhCity = ({ fetchWeatherInfo }) => {
     fetchWeatherInfo(city);
     setCity('');
   };
-  console.log(city);
+
   return (
     <div className="menu">
-      <span className="menu-city">Введите город</span>
+      <span className="tittle">Погода на 5 дней</span>
       <form className="name-form" onSubmit={search}>
-        <input type="text" className="name-form__input" value={city} onChange={handleChange} />
+        <input
+          type="text"
+          className="name-form__input"
+          value={city}
+          onChange={handleChange}
+          placeholder="Введите город..."
+        />
         <button className="name-form__btn btn" type="submit">
           Show
         </button>

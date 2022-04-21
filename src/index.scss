@@ -26,22 +26,19 @@ body {
   border-bottom: 1px solid #ccc;
 }
 .tittle {
-  font-size: 48px;
+  font-size: 32px;
   color: rgb(6, 170, 241);
   -webkit-text-stroke: 0.7px #000;
   font-weight: bold;
   align-self: center;
+  margin-right: 16px;
+
 }
 
 .menu {
   display: flex;
 }
 
-.menu-city {
-  font-size: 32px;
-  font-weight: bold;
-  margin-right: 10px;
-}
 .name-form {
   margin: auto;
   flex: 2;
@@ -77,6 +74,8 @@ body {
 .days {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   padding: 0;
   margin: 0;
