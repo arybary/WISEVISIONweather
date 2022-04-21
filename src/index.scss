@@ -31,7 +31,6 @@ body {
   font-weight: bold;
   align-self: center;
   margin-right: 16px;
-
 }
 
 .menu {
@@ -53,12 +52,11 @@ body {
   height: 40px;
   min-width: 64px;
   background-color: rgba(6, 170, 241, 0.795);
- 
+
   outline: none;
   cursor: pointer;
   border-radius: 8px;
   margin-left: 16px;
-
 }
 .main {
   display: flex;
@@ -90,5 +88,5 @@ body {
   background-color: rgba(6, 170, 241, 0.795);
 }
 .day-data {
-  text-align: center
+  text-align: center;
 }
